@@ -16,6 +16,7 @@ app.use(rules);
 app.use(cors());
 app.use(auth);
 app.use(router);
-app.listen(3000, () => {
+const port = 3000
+app.listen(port, () => {
 	console.log(`Server is running on 3000 `);
 });
